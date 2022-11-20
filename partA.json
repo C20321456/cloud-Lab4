@@ -1,0 +1,12 @@
+{
+    "properties": {
+    "publicIPAllocationMethod": "Static",
+    "idleTimeoutInMinutes": 10,
+    "publicIPAddressVersion": "IPv4"
+    },
+    "sku": {
+    "name": "Standard"
+    },
+    "location": "westeurope"
+    }
+    
