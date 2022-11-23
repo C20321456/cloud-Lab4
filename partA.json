@@ -5,8 +5,7 @@
     "publicIPAddressVersion": "IPv4"
     },
     "sku": {
-    "name": "Standard"
+    "name": "Basic"
     },
     "location": "westeurope"
     }
-    

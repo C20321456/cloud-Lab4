@@ -5,10 +5,10 @@
     "name": "ipconfig1",
     "properties": {
     "publicIPAddress": {
-    "id": "/subscriptions/9a30b169-411a-4c78-ade1-a2c3b347fcd5/resourceGroups/bongani/providers/Microsoft.Network/publicIPAddresses/BonganiVM-ip"
+    "id": "/subscriptions/c14532be-c8d2-4bb5-af31-377d051a5350/resourceGroups/cloud-shell-storage-northeurope/providers/Microsoft.Network/publicIPAddresses/Mykolas_test-ip3"
     },
     "subnet": {
-    "id": "/subscriptions/9a30b169-411a-4c78-ade1-a2c3b347fcd5/resourceGroups/bongani/providers/Microsoft.Network/virtualNetworks/bongani-vnet/subnets/default"
+    "id": "/subscriptions/c14532be-c8d2-4bb5-af31-377d051a5350/resourceGroups/cloud-shell-storage-northeurope/providers/Microsoft.Network/virtualNetworks/cloud-shell-storage-northeurope-vnet/subnets/default"
     }
     }
     }

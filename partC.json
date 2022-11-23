@@ -1,18 +1,18 @@
 {
-    "id": "/subscriptions/9a30b169-411a-4c78-ade1-a2c3b347fcd5/resourceGroups/bongani/providers/Microsoft.Compute/virtualMachines/BonganiVM",
+    "id": "/subscriptions/c14532be-c8d2-4bb5-af31-377d051a5350/resourceGroups/cloud-shell-storage-northeurope/providers/Microsoft.Compute/virtualMachines/CloudProgramming3",
     "type": "Microsoft.Compute/virtualMachines",
     "properties": {
     "osProfile": {
-    "adminUsername": "bongani",
+    "adminUsername": "C20321456",
     "secrets": [
     ],
-    "computerName": "BonganiVM",
+    "computerName": "CloudProgramming3",
     "linuxConfiguration": {
     "ssh": {
     "publicKeys": [
     {
-    "path": "/home/bongani/.ssh/authorized_keys",
-    "keyData": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCm0Plo+0JsUQ3n/yZvKg0VYdKsdtB/P5gNYKfjuMT2sEQFIk9i1kRrXfr03X9ziPy2YO1IoBDa4hZKY+qKxJvSl2MzZuFuszAsp4yZEMcKIZS5GuNxUqsbN9dZb/aTebqQ1j2D+AsLLCcsw569GyAqQVcgEcxbeFj7WrJp+NQFme28ZJdz+CjAba4gUWp58Wrk6m6sFNTipbg2yBUZIp53yjSemXP/yEtqTtcdZYR8pfm+lg4jaWDMr/+KiWFw46iwECvi8+QxSUgENaQVtnslWctTRIr8sNzHyQVf9UeEHlvJ6eEFn6wD41sZGhERmCFbALSBmHpsMgesgQr98ewh8roZ1KBk1J3ihDpaH96aMrD/rqN23cJYkqI2sHJHt9PXC+hgZW1yuFXMEH9b5T2ehxfAQtTKr35lDtUkLIG5tvZAVAokYgrzqzBQxVUPypNzLEJD5UQ1wBoE3siD+9m8bPtb3B0RmpZFVtZe1uPHKkGNWorWS8Q8DNnxCKQJgv0= 35389@DESKTOP-KGH1ERJ\n"
+    "path": "/home/C20321456/.ssh/authorized_keys",
+    "keyData": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCxXiXQrwE5cK4Z/xndVM1WxREO3bd6amGAjrTJs18U/QhVR2SNnAjM0XUIe5SgA3YSfs0JTq9+HOQ2UNwxktNcN9e2SwpSHvB+U0h3c6Y9jObRmeFA/uVPklHj26yyotJ4wo53G03KdYRRB6Q0LmdQu0Wq87oRNdFTpHAzR7Co4/2lzcPWI0foiF+xznsFfb/MJ/lo38noykirarqEQy/miTM057w7AJHSDCZjyU2V6BsZ8KhAGDI6YAbmYio2DxawgT4xnyqDkwuE8eJOlRm00WxsVUh8ZIq8TRw6ZQpF804/+numMLITEmvLKDq19hjUQm4gBu4fvxq5fFB4e+DbLZkjg9QZCCq+1dPDxI8V2tiVM9xqlz4+QIBA3vmJNmlpwxxo9xjALl1CHqW9GpNnrb2CUE2dvdeHzudEtpafG5Xv2+TH+ut0tY8js41AdADsQEJDaAGs9dAa58zTySp1foaKAb2kEcv7XY8u0X3FG1OzfEGgSnoQxXUanaN2TI0= c20321456@cc-eabb0ce4-6b496bb56d-jjbt8"
     }
     ]
     },
@@ -22,7 +22,7 @@
     "networkProfile": {
     "networkInterfaces": [
     {
-    "id": "/subscriptions/9a30b169-411a-4c78-ade1-a2c3b347fcd5/resourceGroups/bongani/providers/Microsoft.Network/networkInterfaces/bonganivm175",
+    "id": "/subscriptions/c14532be-c8d2-4bb5-af31-377d051a5350/resourceGroups/cloud-shell-storage-northeurope/providers/Microsoft.Network/networkInterfaces/Mykolas_test-interface3",
     "properties": {
     "primary": true
     }
@@ -31,10 +31,10 @@
     },
     "storageProfile": {
     "imageReference": {
+    "sku": "20_04-lts-gen2",
     "publisher": "canonical",
-                    "offer": "0001-com-ubuntu-server-focal",
-                    "sku": "20_04-lts-gen2",
-                    "version": "latest"
+    "version": "latest",
+    "offer": "0001-com-ubuntu-server-focal"
     },
     "dataDisks": [
     ]
@@ -44,7 +44,6 @@
     },
     "provisioningState": "Creating"
     },
-    "name": "BonganiVM",
+    "name": "CloudProgramming3",
     "location": "westeurope"
     }
-    
